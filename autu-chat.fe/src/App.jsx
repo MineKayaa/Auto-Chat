@@ -7,7 +7,7 @@ import { TextField,Grid,IconButton, Stack, Box, styled,Paper,Typography,Avatar, 
 
 import axios from "axios"
 
-const api ="https://localhost/chain?session=test14&input=";
+const api ="http://127.0.0.1:5000/assistant?input=";
 
   
 
