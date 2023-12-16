@@ -28,12 +28,12 @@ def chain():
     input = args.get("input")
 
     agent = create_csv_agent(
-        llm_vertex,
+        llm,
         [car_history_path, car_maintenance_path, car_user_path, maintenance_type_path ], 
         verbose=True,
         handle_parsing_errors=True,
         stop=["\nObservation:"],
-        agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION
+        agent_type=AgentType.OPENAI_FUNCTIONS
     )
 
     prompt = (
