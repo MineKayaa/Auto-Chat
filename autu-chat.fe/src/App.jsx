@@ -7,7 +7,7 @@ import { TextField,Grid,IconButton, Stack, Box, styled,Paper,Typography,Avatar, 
 
 import axios from "axios"
 
-const api ="http://127.0.0.1:5000/assistant?input=";
+const api ="http://127.0.0.1:5000/chatbot?input=";
 
   
 
@@ -27,6 +27,7 @@ function App() {
     axios
       .get(api + message)
       .then((res) => {
+        console.log(res)
         setMessages((prevState) => [
           ...prevState,
           { sender: "bot", message: res.data },

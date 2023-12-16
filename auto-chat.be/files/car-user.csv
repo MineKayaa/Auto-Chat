@@ -1,0 +1,87 @@
+car_id,car_brand,car_model,user_id
+1,BMW,3 Series,JohnDoe123
+2,Land Rover,Range Rover Sport,JaneSmith456
+3,Mini,Cooper,RobertJohnson789
+4,Jaguar,F-Pace,EmilyBrown234
+5,BMW,5 Series,DavidMiller567
+6,Land Rover,Discovery,OliviaJones890
+7,Mini,Clubman,MichaelWilson123
+8,Jaguar,XE,AvaDavis456
+9,BMW,7 Series,WilliamTaylor789
+10,Land Rover,Defender,SophiaAnderson234
+11,Mini,Countryman,JamesMoore567
+12,Jaguar,I-Pace,EmmaSmith890
+13,BMW,X3,AlexanderWhite123
+14,Land Rover,Evoque,LilyJohnson456
+15,Mini,Paceman,ChristopherBrown789
+16,Jaguar,XF,IsabellaTaylor234
+17,BMW,X5,EthanWilson567
+18,Land Rover,Range Rover,AmeliaMiller890
+19,Mini,Roadster,AidenDavis123
+20,Jaguar,XJ,SophieTaylor456
+21,BMW,Z4,MatthewMoore789
+22,Land Rover,Velar,EmmaSmith234
+23,Mini,Convertible,NoahJohnson567
+24,Jaguar,XK,AvaAnderson890
+25,BMW,2 Series,WilliamWhite123
+26,Land Rover,Range Rover Evoque SE,LilyJohnson456
+27,Mini,John Cooper Works,MichaelBrown789
+28,Jaguar,XKR,IsabellaTaylor234
+29,BMW,M2,JamesWilson567
+30,Land Rover,Range Rover Sport HSE,SofiaMiller890
+31,Mini,One,DanielDavis123
+32,Jaguar,XKR-S Convertible,OliviaTaylor456
+33,BMW,6 Series,ChristopherMoore789
+34,Land Rover,Range Rover Sport Autobiography,EmmaSmith234
+35,Mini,Paceman Cooper S,JackJohnson567
+36,Jaguar,F-Type Convertible,EllaAnderson890
+37,BMW,X1 xDrive,LiamWhite123
+38,Land Rover,Range Rover Velar SE,LilyJohnson456
+39,Mini,Roadster Cooper S,NathanBrown789
+40,Jaguar,XJR,AvaTaylor234
+41,BMW,Z3 M,AndrewWilson567
+42,Land Rover,Discovery SE,SofiaMiller890
+43,Mini,Countryman All4,DanielDavis123
+44,Jaguar,F-Type R,AvaTaylor456
+45,BMW,X7,OliviaMoore789
+46,Land Rover,Range Rover Sport HST,EmmaSmith234
+47,Mini,John Cooper Works GP,DavidDavis123
+48,Jaguar,XKR-S GT,ChloeTaylor456
+49,BMW,3 Series Gran Turismo,ChristopherMoore789
+50,Land Rover,Range Rover Sport SVR,EmmaSmith234
+51,Mini,Cooper Countryman,JackJohnson567
+52,Jaguar,XJ R-Sport,EllaAnderson890
+53,BMW,5 Series Gran Turismo,LiamWhite123
+54,Land Rover,Range Rover Sport Autobiography,SophieTaylor456
+55,Mini,Paceman Cooper S,IsabellaTaylor234
+56,Jaguar,I-Pace HSE,AndrewWilson567
+57,BMW,X3 M,SofiaMiller890
+58,Land Rover,Range Rover Evoque Dynamic,DanielDavis123
+59,Mini,John Cooper Works Convertible,OliviaTaylor456
+60,Jaguar,XKR Convertible,MatthewMoore789
+61,BMW,Z4 M,EmmaSmith234
+62,Land Rover,Range Rover Velar S,JackJohnson567
+63,Mini,Cooper S Clubman,LiamWhite123
+64,Jaguar,F-Type R Convertible,AvaTaylor234
+65,BMW,M5,JamesWilson567
+66,Land Rover,Discovery Landmark Edition,SofiaMiller890
+67,Mini,John Cooper Works Clubman,DanielDavis123
+68,Jaguar,XJ50,OliviaTaylor456
+69,BMW,2 Series Active Tourer,EmmaSmith234
+70,Land Rover,Range Rover Velar R-Dynamic HSE,MatthewMoore789
+71,Mini,Cooper S Convertible,JackJohnson567
+72,Jaguar,F-Type SVR Convertible,EllaAnderson890
+73,BMW,M8,LiamWhite123
+74,Land Rover,Range Rover Evoque Autobiography,LilyJohnson456
+75,Mini,Electric SE,NathanBrown789
+76,Jaguar,XE 300 Sport,AvaTaylor234
+77,BMW,X6 M,AndrewWilson567
+78,Land Rover,Defender X,SofiaMiller890
+79,Mini,Paceman Cooper SD,DanielDavis123
+80,Jaguar,XK8 Convertible,OliviaTaylor456
+81,BMW,4 Series Gran Coupe,ChristopherMoore789
+82,Land Rover,Range Rover Sport HSE Dynamic,EmmaSmith234
+83,Mini,Countryman John Cooper Works,JackJohnson567
+84,Jaguar,I-Pace EV400,EllaAnderson890
+85,BMW,X1 xDrive,SophieTaylor456
+86,Land Rover,Range Rover Velar SE,LiamWhite123
