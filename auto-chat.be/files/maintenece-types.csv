@@ -1,16 +1,7 @@
-maintenance_type,maintenance_name
-1,Oil Change
-2,Tire Rotation
-3,Brake Inspection
-4,Fluid Checks and Top-ups
-5,Air Filter Replacement
-6,Battery Check
-7,Spark Plug Replacement
-8,Timing Belt/Chain Inspection
-9,Suspension and Steering Inspection
-10,Exhaust System Inspection
-11,Transmission Service
-12,Cooling System Maintenance
-13,Fuel System Cleaning
-14,Hoses and Belts Inspection
-15,Alignment Check
+bakım_tipi,min_km,max_km
+Yağ Değişimi,10000,15000
+Fren Sistemi,20000,40000
+Lastik Bakımı,8000,12000
+Filtre Değişimi,10000,20000
+Süspansiyon ve Direksiyon,40000,80000
+Buji Değişimi,30000,50000
