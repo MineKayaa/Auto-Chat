@@ -1,0 +1,29 @@
+car_id,marka,model,kullanıcı,bakım_tipi,tarih,service_name
+1,BMW,Serisi 3,Ahmet Bulut,Yağ Değişimi,2022-05-10,BMW Yetkili Servis - İstanbul Şubesi
+1,BMW,Serisi 3,Ahmet Bulut,Fren Sistemi,2022-08-22,BMW Yetkili Servis - İstanbul Şubesi
+1,BMW,Serisi 3,Ahmet Bulut,Lastik Bakımı,2022-03-15,BMW Yetkili Servis - İstanbul Şubesi
+2,Mini,Cooper,Selin Çakar,Yağ Değişimi,2022-02-28,Mini Yetkili Servis - Bursa Şubesi
+3,Land Rover,Discovery,Emre Bağcı,Yağ Değişimi,2021-11-05,Land Rover Yetkili Servis - İzmir Şubesi
+3,Land Rover,Discovery,Emre Bağcı,Fren Sistemi,2022-04-18,Land Rover Yetkili Servis - İzmir Şubesi
+3,Land Rover,Discovery,Emre Bağcı,Lastik Bakımı,2021-09-30,Land Rover Yetkili Servis - İzmir Şubesi
+4,Jaguar,F-Type,Ayşe Eryaman,Yağ Değişimi,2022-02-14,Jaguar Yetkili Servis - Antalya Şubesi
+4,Jaguar,F-Type,Ayşe Eryaman,Fren Sistemi,2022-06-25,Jaguar Yetkili Servis - Antalya Şubesi
+4,Jaguar,F-Type,Ayşe Eryaman,Lastik Bakımı,2022-01-10,Jaguar Yetkili Servis - Antalya Şubesi
+5,BMW,X5,Mehmet Taş,Yağ Değişimi,2022-07-12,BMW Yetkili Servis - İstanbul Şubesi 2
+5,BMW,X5,Mehmet Taş,Fren Sistemi,2022-11-28,BMW Yetkili Servis - İstanbul Şubesi 2
+5,BMW,X5,Mehmet Taş,Lastik Bakımı,2022-05-05,BMW Yetkili Servis - İstanbul Şubesi 2
+6,Land Rover,Range Rover Sport,Ceren Kapay,Yağ Değişimi,2021-10-15,Land Rover Yetkili Servis - Trabzon Şubesi
+6,Land Rover,Range Rover Sport,Ceren Kapay,Fren Sistemi,2022-03-20,Land Rover Yetkili Servis - Trabzon Şubesi
+6,Land Rover,Range Rover Sport,Ceren Kapay,Lastik Bakımı,2021-08-01,Land Rover Yetkili Servis - Trabzon Şubesi
+7,Mini,Clubman,Burak Tutuşan,Yağ Değişimi,2022-06-08,Mini Yetkili Servis - Adana Şubesi
+7,Mini,Clubman,Burak Tutuşan,Fren Sistemi,2022-10-17,Mini Yetkili Servis - Adana Şubesi
+7,Mini,Clubman,Burak Tutuşan,Lastik Bakımı,2022-04-02,Mini Yetkili Servis - Adana Şubesi
+8,BMW,Serisi 1,Zeynep Paytak,Yağ Değişimi,2022-04-30,BMW Yetkili Servis - İstanbul Şubesi 3
+8,BMW,Serisi 1,Zeynep Paytak,Fren Sistemi,2022-09-12,BMW Yetkili Servis - İstanbul Şubesi 3
+8,BMW,Serisi 1,Zeynep Paytak,Lastik Bakımı,2022-03-05,BMW Yetkili Servis - İstanbul Şubesi 3
+9,Jaguar,XE,Can Kapıcılar,Yağ Değişimi,2022-08-05,Jaguar Yetkili Servis - İstanbul Şubesi 2
+9,Jaguar,XE,Can Kapıcılar,Fren Sistemi,2022-12-18,Jaguar Yetkili Servis - İstanbul Şubesi 2
+9,Jaguar,XE,Can Kapıcılar,Lastik Bakımı,2022-06-01,Jaguar Yetkili Servis - İstanbul Şubesi 2
+10,Land Rover,Defender,Ece Sönmez,Yağ Değişimi,2022-01-25,Land Rover Yetkili Servis - Trabzon Şubesi
+10,Land Rover,Defender,Ece Sönmez,Fren Sistemi,2022-06-10,Land Rover Yetkili Servis - Trabzon Şubesi
+10,Land Rover,Defender,Ece Sönmez,Lastik Bakımı,2021-12-01,Land Rover Yetkili Servis - Trabzon Şubesi

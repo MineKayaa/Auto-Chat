@@ -24,17 +24,11 @@ def chain():
     input = args.get("input")
 
     documents = documentProcessor()
-
     vectorstore = Chroma.from_documents(documents=documents, 
                                      embedding = VertexAIEmbeddings())
     
     
-    #takes k doc result with above 0.5 similarity score
-    retriever = vectorstore.as_retriever()
-                               # search_type="similarity_score_threshold", 
-                               # search_kwargs={"score_threshold": .5 , 
-                               #                "k": 8})
-
+    retriever = vectorstore.as_retriever(search_type="mmr")
 
     llm = VertexAI(model_name="text-bison@001")
     
@@ -47,11 +41,10 @@ def chain():
 def mainChain(retriver,llm):
     template = """
         You are a chatbot that will help users get the necessary maintenance done on their cars.
-        You have information about the brand, model, owner of the car, and mileage of their cars (km). you can search on metadata=.source = car-user.csv
-        There is information about the maintenance done on the cars so far. you can search on metadata.source = car-history.csv
-        Maintenances also have min - max km information, for example, if the car has 15,000 km, all maintenance with min_km less than 15,000 must be done.
-        For example, if the car has 20,000 km, it must have undergone maintenance twice with a min_km of 10,000. metadata.source = maintenece-types.csv
+        You have information about the brand, model, owner of the car also there is information about the maintenance done on the cars so far.
+        Maintenances have min_km information. This means that if a car pass this km , it should undergo to related maintenances.
         They will ask you question about what type of maintenances need for their car.
+        You have where they can find the services , give recommendation based on user city, don't forget it is important to know car's brand if there is no service for that brand, say there is no service for that brand and give another city recommendation.
         If you couldn't find the answer in the context, just say that you don't know, don't try to make up an answer. 
         Always give kind answers. 
         Answer the question based on the following context:  
@@ -76,26 +69,25 @@ def mainChain(retriver,llm):
 
 
 def loader():
-    loader = CSVLoader(file_path='files/car-history.csv', csv_args={
-                                                                'delimiter': ',',
-                                                                'quotechar': '"',
-                                                                'fieldnames': ['car_id', 'bakım_tipi', 'tarih'] })
+    loader_services = CSVLoader(file_path='files/services.csv', csv_args={
+                                                                 'delimiter': ',',
+                                                                 'quotechar': '"',
+                                                                 'fieldnames': ['service_name', 'address', 'city', 'telefon_no'] })
     loader_main_type = CSVLoader(file_path='files/maintenece-types.csv', csv_args={
                                                                 'delimiter': ',',
                                                                 'quotechar': '"',
-                                                                'fieldnames': ['bakım_tipi', 'min_km', 'max_km'] })
-    loader_user = CSVLoader(file_path='files/car-user.csv', csv_args={
+                                                                'fieldnames': ['bakim_tipi', 'min_km'] })
+    loader = CSVLoader(file_path='files/car-history-with-user.csv', csv_args={
                                                                 'delimiter': ',',
                                                                 'quotechar': '"',
-                                                                'fieldnames': ['car_id', 'marka', 'model', 'kullanıcı', 'araba_km'] })
-    data = loader.load() + loader_main_type.load() + loader_user.load()
+                                                                'fieldnames': ['car_id', 'marka', 'model', 'kullanici', 'bakim_tipi', 'tarih', 'service_name'] })
+    data = loader.load() + loader_main_type.load() 
     #print(data)
     return data
 
 
 def documentProcessor():
     data = loader()
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0, length_function = lambda x: len(x.split("\n")))
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100, length_function = lambda x: len(x.split("\n")))
     splits = text_splitter.split_documents(data)
-    #print(splits)
     return splits
