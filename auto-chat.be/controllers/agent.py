@@ -11,7 +11,6 @@ from langchain.agents.agent_types import AgentType
 
 agent_Blueprint = Blueprint('agent', __name__)
 
-OPENAI_API_KEY = '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'
 
 car_history_path = "files/car-history.csv"
 car_user_path = "files/car-user.csv"
